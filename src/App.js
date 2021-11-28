@@ -6,17 +6,19 @@ import {
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
 import ArticlePage from './pages/ArticlePage'
-import ArticleList from './pages/ArticlesList'
+import ArticleListPage from './pages/ArticlesListPage'
+import NavBar from './NavBar';
 
 function App() { 
   return (
     <Router>
       <div className="App">
+        <NavBar/>
         <div id="page-body">
         <Route path="/" component={HomePage} exact/>
         <Route path="/about" component={AboutPage} exact/>
-        <Route path="/articles-list" component={ArticleList} exact/>
-        <Route path="/article" component={ArticlePage} exact/>
+        <Route path="/articles-list" component={ArticleListPage} exact/>
+        <Route path="/article/:name" component={ArticlePage} exact/>
         </div>
       </div>
     </Router>
