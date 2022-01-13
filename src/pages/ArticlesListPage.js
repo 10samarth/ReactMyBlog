@@ -8,6 +8,6 @@ const ArticlesListPage = () => (
         <ArticlesList articles={articleContent}/>
     </>
 
-);
+)
 
 export default ArticlesListPage;

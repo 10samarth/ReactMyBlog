@@ -31,11 +31,11 @@ const ArticlePage = ({ match }) => {
                 <p key={key}>{paragraph}</p>
             ))}
             <CommentsList comments={articleInfo.comments} />
-            <AddCommentForm articleName={name} setArticleInfo={setArticleInfo}/>
+            <AddCommentForm articleName={name} setArticleInfo={setArticleInfo} />
             <h3>Other Articles:</h3>
             <ArticlesList articles={otherArticles}></ArticlesList>
         </>
     );
-}
+};
 
 export default ArticlePage;
