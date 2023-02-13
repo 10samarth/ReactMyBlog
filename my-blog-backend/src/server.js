@@ -19,6 +19,14 @@ const withDB = async (operations, res) => {
     }
 };
 
+app.get('/api/articles/getAll', async (req, res) => {
+    withDB(async (db) => {
+        const articleInfo = await db.collection('articles').find().toArray();
+        res.status(200).json(articleInfo);
+    }, res);
+});
+
+
 app.get('/api/articles/:name', async (req, res) => {
     withDB(async (db) => {
         const articleName = req.params.name;

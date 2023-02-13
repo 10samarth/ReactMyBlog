@@ -59,16 +59,12 @@ nav a:hover {
 .article-list-item {
   text-decoration: none;
   color: black;
-  padding: 16px 10px 0 0;
+  padding: 16px 0 0 0;
 }
 
 .article-list-item p {
-  padding-bottom: 20px;
+  padding-bottom: 32px;
   border-bottom: 2px solid black;
-}
-
-.article-padding p {
-  padding-top: 22px;
 }
 
 #add-comment-form {

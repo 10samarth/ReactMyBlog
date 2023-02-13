@@ -1,18 +1,18 @@
 import React from 'react';
 
 const AboutPage = () => (
-    <>
-        <h1>About Me</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quare attende, quaeso. Quo tandem modo? Duo Reges: constructio interrete. Respondent extrema primis, media utrisque, omnia omnibus. </p>
+    <div className="pb-5 pt-5">
+    <h2>About The Tech Hive</h2>
+<div className="pb-5 pt-5">
+<p>Welcome to The Tech Hive, a platform where we share our thoughts and ideas on the latest developments in technology. We believe in the power of innovation and the impact it can have on our lives and the world.</p>
 
-        <p>Estne, quaeso, inquam, sitienti in bibendo voluptas? Et ille ridens: Video, inquit, quid agas; Memini vero, inquam; </p>
+<p>Our team of passionate tech enthusiasts is dedicated to bringing you high-quality content that is both informative and engaging. From AI and machine learning, to 5G networks and IoT devices, and everything in between, we strive to provide a diverse range of topics that will appeal to a broad audience.</p>
 
-        <p>Primum quid tu dicis breve? Ea possunt paria non esse. Haec igitur Epicuri non probo, inquam. Age, inquies, ista parva sunt. Hoc loco tenere se Triarius non potuit. Quae diligentissime contra Aristonem dicuntur a Chryippo. </p>
+<p>We believe that everyone has a unique perspective on technology, and we're committed to creating a space where voices from all walks of life can be heard. Whether you're a tech-savvy professional, a student interested in the field, or just someone who wants to stay up-to-date with the latest advancements, we've got you covered.</p>
 
-        <p>Nulla erit controversia. Tamen a proposito, inquam, aberramus. Tu quidem reddes; Nunc omni virtuti vitium contrario nomine opponitur. Primum quid tu dicis breve? At, si voluptas esset bonum, desideraret. </p>
-
-        <p>Omnia peccata paria dicitis. Quid me istud rogas? Quid sequatur, quid repugnet, vident. Tubulo putas dicere? Quam ob rem tandem, inquit, non satisfacit? Recte dicis; Eadem nunc mea adversum te oratio est. Age, inquies, ista parva sunt. Illi enim inter se dissentiunt. </p>
-    </>
+<p>So sit back, grab a cup of coffee, and join us on this journey of exploration and discovery. We can't wait to see where the latest developments in technology take us!</p>
+</div>
+   </div>
 
 );
 
